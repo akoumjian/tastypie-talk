@@ -513,6 +513,10 @@ body     { pointer-events: none; }
     margin-left: 100px;
 }
 
+.slide li {
+    line-height: 155%;
+}
+
 .slide p {
 }
 

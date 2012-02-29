@@ -19,7 +19,7 @@
       <p>Please use a modern browser to view the presentation.</p>
     </div>
     <div class="step" data-x="-1000" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
-        <p>You have data and you want to:</p>
+        <p>You have <strong>data</strong> and you want to:</p>
     </div>
     <div class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
         <p>Perform basic CRUD</p>
@@ -67,7 +67,7 @@
             <li>pagination | <div class="inline">api/foo/?limit=20?offset=20</div></li>
             <li>filtering  | <div class="inline">api/foo/?user__username=bob</div></li>
             <li>ordering   | <div class="inline">api/foo/?order_by=title</div></li>
-            <p>(Syntax look familiar?)</p>
+            <p><sup>*</sup>note the ORM syntax</p>
         </ul>
     </div>
     <div class="step slide" data-x="-500" data-y="3500" data-z="-500" data-rotate-x="0" data-rotate-y="270" data-rotate-z="0" data-scale="1">
@@ -96,9 +96,21 @@
         <p>Last Step: Instantiate and Include</p>
         <script src="https://gist.github.com/1935515.js"> </script>
     </div>
-     <div class="step" data-x="6000" data-y="3500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
-        <p>Now we can Add, Update, Delete, or Retrieve our Resource</p>
-        <script src="https://gist.github.com/1936430.js"> </script>
+     <div class="step" data-x="7000" data-y="3500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <p>Now we can Create</p>
+        <script src="https://gist.github.com/1936430.js?file=create.sh"> </script>
+    </div>
+     <div class="step" data-x="8000" data-y="3500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <p>... Retrieve</p>
+        <script src="https://gist.github.com/1936430.js?file=retrieve.sh"></script>
+    </div>
+     <div class="step" data-x="9000" data-y="3500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <p>... Update</p>
+        <script src="https://gist.github.com/1936430.js?file=Update.sh"></script>
+    </div>
+         <div class="step" data-x="10000" data-y="3500" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <p>...and Delete</p>
+        <script src="https://gist.github.com/1936430.js?file=delete.sh"></script>
     </div>
   </div>
 <script src="js/impress.js"></script>
